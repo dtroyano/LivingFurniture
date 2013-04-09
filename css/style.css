@@ -72,7 +72,7 @@ body {
 
 #main-content {
 	position: absolute;
-	left: 400px;
+	left: 455px;
 	height: 100%;
 }
 
@@ -92,7 +92,53 @@ body {
 
 .main-text {
 	text-align: center;
-	padding-left: 55px;
+	padding-left: 55px;	
+}
+
+.spacer {
+	padding-top: 30px;
+}
+
+h1 {
+	background-color: #FFBB6E;
+	background: -moz-linear-gradient(left,#FFBB6E 0%,white 100%);
+	padding-left: 20px;
+	box-shadow: -4px 4px 3px 0px black;
+}
+
+.gallery-link {
+	text-decoration: none;
+	color: black;
+}
+
+.gallery-images {
+	height: 100px;
+	width: 100px;
+}
+
+/*.gallery-images-head {
+	height: 300px;
+	width: 300px;
+}*/
+
+.gallery-table {
+	text-align: center;
+}
+
+.gallery-table img {
+	border: 5px solid #6ed1ff;
+	border-radius: 2px;
+}
+
+.gallery-table a:link {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.gallery-table a:visited {
+	color: black
 }
 
 /* SIDEBAR */

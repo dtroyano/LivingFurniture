@@ -6,7 +6,7 @@
 	<link rel='stylesheet' href='css/jquery.popeye.style.css' />
 	<script type="text/javascript" src="javascript/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="javascript/jquery.popeye-2.1.min.js"></script>
-	<script type="text/javascript" src="javascript/index-style.js"></script>
+	<script type="text/javascript" src="javascript/gallery-style.js"></script>
 	<title>Living Furniture</title>
 </head>
 <body>
@@ -20,44 +20,28 @@
 			</div>
 		</div><!--end Header-->
 		<div id="main-content">
-			<div id="slideshow">
-				<div class="ppy" id="ppy1">
-					<ul class="ppy-imglist">
-						<li><a href="ImagesforSite/slideshow/cedarLarge.png"><img src="ImagesforSite/slideshow/cedarThumb.png" alt="This is the cedar table" /></a></li>
-						<li><a href="ImagesforSite/slideshow/chessLarge.png"><img src="ImagesforSite/slideshow/chessThumb.png" alt="This is the chess table" /></a></li>
-						<li><a href="ImagesforSite/slideshow/cornerLarge.png"><img src="ImagesforSite/slideshow/cornerThumb.png" alt="This is the corner table" /></a></li>
-						<li><a href="ImagesforSite/slideshow/firLarge.png"><img src="ImagesforSite/slideshow/firThumb.png" alt="This is the fir table" /></a></li>
-						<li><a href="ImagesforSite/slideshow/grandLarge.png"><img src="ImagesforSite/slideshow/grandThumb.png" alt="This is the grand table" /></a></li>
-						<li><a href="ImagesforSite/slideshow/lampLarge.png"><img src="ImagesforSite/slideshow/lampThumb.png" alt="This is the lamp" /></a></li>
-						<li><a href="ImagesforSite/slideshow/vineLarge.png"><img src="ImagesforSite/slideshow/vineThumb.png" alt="This is the vine table" /></a></li>
-					</ul>
-					<div class="ppy-outer">
-						<div class="ppy-stage">
-							<div class="ppy-nav">
-								<a class="ppy-prev" title="Previous image">Previous Image</a>
-								<a class="ppy-switch-enlarge" title="Enlarge">Enlarge</a>
-								<a class="ppy-switch-compact" title="Close">Close</a>
-								<a class="ppy-play" title="Play Slideshow"></a>
-    							<a class="ppy-pause" title="Stop Slideshow"></a>
-								<a class="ppy-next" title="Next image">Next Image</a>
-							</div>
-						</div>
-					</div>
-					<div class="ppy-caption">
-						<div class="ppy-counter">
-							Image <strong class="ppy-current"></strong> of <strong class="ppy-total"></strong>
-						</div>
-						<span class="ppy-text"></span>
-					</div>
-				</div>
-			</div><!--end slideshow-->
-			<img src="ImagesforSite/lcg.png" id="lcg"><br />
-			<a href="http://www.staylocal.org/" id="stay-local"><img src="ImagesforSite/staylocal.png"></a>
-			<p class="main-text">Don't throw out that broken chair or table, no matter what side of the family you inherited it or what it has been through.<br />
-			Chances are furniture can be repaired.<br />
-			We can do cane and rush as well.</p>
-		</div><!--end Main Content-->
-		<div id="sidebar-wrap" class="clear">
+			<div class="spacer"></div>
+			<a href="#" class="gallery-link"><h1>Tables</h1></a>
+			<table class="gallery-table">
+				<tr>
+					<td><a href="#"><img src="ImagesforSite/slideshow/cedarThumb.png" class="gallery-images-head"></a></td>
+					<td><a href="#"><img src="ImagesforSite/slideshow/chessThumb.png" class="gallery-images-head"></a></td>
+					<td><a href="#"><img src="ImagesforSite/slideshow/cornerThumb.png" class="gallery-images-head"></a></td>
+					<td><a href="#"><img src="ImagesforSite/slideshow/firThumb.png" class="gallery-images-head"></a></td>
+					<td><a href="#"><img src="ImagesforSite/slideshow/grandThumb.png" class="gallery-images-head"></a></td>
+					<td><a href="#"><img src="ImagesforSite/slideshow/vineThumb.png" class="gallery-images-head"></a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Cedar Table</a></td>
+					<td><a href="#">Chess Table</a></td>
+					<td><a href="#">Corner Table</a></td>
+					<td><a href="#">Fir Table</a></td>
+					<td><a href="#">Grand Table</a></td>
+					<td><a href="#">Vine Table</a></td>
+				</td>
+			</table>
+		</div><!--end main-content-->
+			<div id="sidebar-wrap" class="clear">
 			<form id="search" action="#">
 				<input type="text" name="q" size="31" />
 				<input type="submit" name="sa" value="Search" />
@@ -87,4 +71,4 @@
 		</div><!--end Sidebar-->
 	</div><!--end page-wrap-->
 </body>
-</html>
+</html>		
