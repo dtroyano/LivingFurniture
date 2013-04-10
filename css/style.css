@@ -91,8 +91,13 @@ body {
 }
 
 .main-text {
+	margin-left: -25px;
 	text-align: center;
-	padding-left: 55px;	
+}
+
+#description {
+	font-weight: bold;
+	color: #539dbf;
 }
 
 .spacer {
@@ -128,6 +133,55 @@ h1 {
 .gallery-table img {
 	border: 5px solid #6ed1ff;
 	border-radius: 2px;
+}
+
+.individual-image {
+	border: 10px solid #6ed1ff;
+	border-radius: 5px;
+}
+
+#individual-table {
+	text-align: center;
+}
+
+#individual-table h2, #individual-table h3 {
+	font-size: 2em;
+	padding: 0px;
+	margin: 0px;
+}
+
+#individual-table h3 {
+	font-size: 1.5em;
+}
+
+.buy-button {
+   border-top: 1px solid #96d1f8;
+   background: #6ed1ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#539dbf), to(#6ed1ff));
+   background: -webkit-linear-gradient(top, #539dbf, #6ed1ff);
+   background: -moz-linear-gradient(top, #539dbf, #6ed1ff);
+   background: -ms-linear-gradient(top, #539dbf, #6ed1ff);
+   background: -o-linear-gradient(top, #539dbf, #6ed1ff);
+   padding: 5px 10px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   text-decoration: none;
+   vertical-align: middle;
+}
+.buy-button:hover {
+   border-top-color: #539dbf;
+   background: #539dbf;
+   color: #ccc;
+}
+.buy-button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
 }
 
 .gallery-table a:link {
